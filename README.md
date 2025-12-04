@@ -2,6 +2,8 @@
 
 Egyszerű .NET 8 webalkalmazás, amely HTTP-n szöveget ad vissza.
 
+Választott kötelezően választandó feladatrész: 3.4 – Felhő szolgáltatás használata (Render).
+
 ## Előfeltételek
 
 - .NET 8 SDK
