@@ -1,48 +1,48 @@
 # hello-DevOps
 
-Egyszerű .NET 8 webalkalmazás, amely HTTP-n szöveget ad vissza.
+Egy egyszerű .NET 8 webalkalmazás, amely HTTP-n szöveget ad vissza.
 
-Választott kötelezően választandó feladatrész: 3.4 – Felhő szolgáltatás használata (Render).
+Választott feladatrész: Felhő szolgáltatás használata (Render).
 
 ## Előfeltételek
 
 - .NET 8 SDK
 - Git
-- Docker
+- Docker (Tesztelés publikáció előtt)
 
 ## Build
 
-1. Klónozd a repót:
+1. Klónozzuk a repót:
    `git clone https://github.com/zolmen/hello-DevOps.git`
-2. Lépj be a mappába:
+2. Lépjünk be a mappába:
    `cd hello-DevOps`
-3. Navigálj a projekt mappájába:
+3. Navigáljunk a projekt mappájába:
    `cd src/HelloDevOps`
-4. Futtasd a buildet:
+4. Futtassuk a buildet:
    `dotnet build`
 
 ## Lokális futtatás
 
 1. A projekt mappájában:
    `cd src/HelloDevOps` (ha még nem ott vagy)
-2. Futtasd:
+2. Futtassuk:
    `dotnet run`
-3. Böngészőben nyisd meg:
+3. Böngészőben nyissuk meg:
    `http://localhost:8080`
 4. Opcionálisan:
    `http://localhost:8080/info`
 
 ## Docker
 
-1. Klónozd a repót:
+1. Klónozzuk a repót:
    `git clone https://github.com/zolmen/hello-DevOps.git`
-2. Lépj be a mappába:
+2. Lépjünk be a mappába:
    `cd hello-DevOps`
-3. Építsd fel a Docker image-et:
+3. Építsük fel a Docker image-et:
    `docker build -t hello-devops:v1 .`
-4. Futtasd a konténert:
+4. Futtassuk a konténert:
    `docker run -p 8080:8080 hello-devops:v1`
-5. Böngészőben nyisd meg:
+5. Böngészőben nyissuk meg:
    `http://localhost:8080`
    vagy
    `http://localhost:8080/info`
@@ -65,5 +65,5 @@ Publikus URL:
 7. Port: az alkalmazás a konténeren belül a `8080` porton hallgat.
 8. Kattints a „Deploy Web Service” gombra, megvárod, amíg a build és deploy lefut.
 9. A publikus URL-en eléred az alkalmazást:
-   - `/` → alap üzenet
-   - `/info` → info endpoint
+   - `/` → főoldal
+   - `/info` → információs portál
