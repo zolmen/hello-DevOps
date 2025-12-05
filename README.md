@@ -56,14 +56,14 @@ Publikus URL:
 
 ### Deploy lépések
 
-1. Jelentkezz be Renderre GitHub fiókkal.
-2. Hozz létre új Web Service-t, és válaszd a `zolmen/hello-DevOps` repót.
+1. Jelentkezzünk be Renderre GitHub fiókkal.
+2. Hozzunk létre új Web Service-t, és válasszuk a `zolmen/hello-DevOps` repót.
 3. Branch: `main`.
 4. Build: Dockerfile a repo gyökeréből (Language: Docker).
 5. Region: például `Frankfurt (EU Central)`.
 6. Instance type: `Free`.
 7. Port: az alkalmazás a konténeren belül a `8080` porton hallgat.
-8. Kattints a „Deploy Web Service” gombra, megvárod, amíg a build és deploy lefut.
-9. A publikus URL-en eléred az alkalmazást:
+8. Kattintsunk a „Deploy Web Service” gombra, megvárjuk, amíg a build és deploy lefut.
+9. A publikus URL-en elérjük az alkalmazást:
    - `/` → főoldal
    - `/info` → információs portál
