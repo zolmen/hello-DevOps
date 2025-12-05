@@ -70,6 +70,6 @@ setInterval(updateTime, 1000);
 }
 
 app.MapGet("/", () => Results.Content(CreatePage("Hello DevOps"), "text/html"));
-app.MapGet("/info", () => Results.Content(CreatePage("Hello DevOps info endpoint"), "text/html"));
+app.MapGet("/info", () => Results.Content(CreatePage("Hello DevOps | Információs portál"), "text/html"));
 
 app.Run("http://0.0.0.0:8080");
